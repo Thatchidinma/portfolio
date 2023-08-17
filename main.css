@@ -54,3 +54,12 @@ section{
 section:nth-child(2n){
     background-color: rgb(254, 144, 181);
 }
+
+@media screen and (max-width: 480px) {
+    #home{
+        background-image: url(./images/IMG_1955.JPG);
+        background-position:center;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+}
