@@ -59,8 +59,12 @@ section:nth-child(2n){
     #home{
         background-image: url(./images/IMG_1955.JPG);
         background-position:center;
-        background-attachment: fixed;
+       /* background-attachment: fixed; */
         background-size: auto;
         background-repeat: no-repeat;
+    }
+
+    #nav{
+        font: 1em sans-serif;
     }
 }
